@@ -1,0 +1,11 @@
+name: Build and Deploy to GCP Storage
+
+on:
+  push:
+    branches:
+      - ci_test
+
+jobs:
+    build:
+        name: Build Image
+        runs-on: ubuntu-latest
