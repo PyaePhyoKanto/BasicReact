@@ -38,5 +38,6 @@ jobs:
             - name: 'upload-file'
               uses: 'google-github-actions/upload-cloud-storage@v2'
               with:
-                path: '/build'
+                path: 'build'
                 destination: 'lab-staging-reo-frontend'
+                parent: false
